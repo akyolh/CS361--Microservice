@@ -1,6 +1,6 @@
 # Random Exercise Generator Microservice
 
-To request data: Run the request.py file and create an exercises.txt file or download it from here. The code inside request.py can also be directly implemented into the Python file of your original project. Here is an example call:
+To request data: Run the request.py file and create an exercises.txt file or download it from here. The code inside request.py can also be directly implemented into the Python file of your original project, but make sure to import time. Here is an example call:
 
       time.sleep(1)
       with open('exercises.txt', 'w') as file:
@@ -10,4 +10,5 @@ To request data: Run the request.py file and create an exercises.txt file or dow
           exercise = file.read()
 
 
-To receive data: Run the generate.py file. This is fairly simple and no modification is needed. It will automatically read the exercises.txt file; if "get exercises" is written, it will overwrite it with a random exercise. Once that is complete, the code in request.py will reread the exercises.txt file for the newly generated random exercise. This can be utilized in any way for your code.
+To receive data: Run the generate.py file. This is fairly simple and no modification is needed. It will automatically read the exercises.txt file; if "get exercises" is written, it will overwrite it with a random exercise. Once that is complete, the code in request.py will reread the exercises.txt file for the newly generated random exercise. 
+<img width="668" alt="Screenshot 2023-11-20 at 4 51 50 PM" src="https://github.com/hafsarakyol/CS361--Microservice/assets/122319766/a7d701a7-985b-4481-95a4-6e97d7b4f29e">
