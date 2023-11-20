@@ -11,4 +11,7 @@ To request data: Run the request.py file and create an exercises.txt file or dow
 
 
 To receive data: Run the generate.py file. This is fairly simple and no modification is needed. It will automatically read the exercises.txt file; if "get exercises" is written, it will overwrite it with a random exercise. Once that is complete, the code in request.py will reread the exercises.txt file for the newly generated random exercise. 
+
+Here is the UML sequence to illustrate better:
+
 <img width="668" alt="Screenshot 2023-11-20 at 4 51 50 PM" src="https://github.com/hafsarakyol/CS361--Microservice/assets/122319766/a7d701a7-985b-4481-95a4-6e97d7b4f29e">
